@@ -26,6 +26,11 @@ namespace LeetCode
                         maxProfit = diff;
                     }
                 }
+<<<<<<< HEAD
+=======
+    
+
+>>>>>>> 07602db555349f56c34a8149b19947ddc2bcfa5e
             }
 
             return maxProfit;
