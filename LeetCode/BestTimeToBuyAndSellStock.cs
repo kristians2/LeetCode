@@ -17,7 +17,8 @@ namespace LeetCode
                 if (prices[i] < min)
                 {
                     min = prices[i];
-                } else
+                }
+                else
                 {
                     int diff = prices[i] - min;
 
@@ -27,7 +28,6 @@ namespace LeetCode
                     }
                 }
             }
-
             return maxProfit;
         }
     }
